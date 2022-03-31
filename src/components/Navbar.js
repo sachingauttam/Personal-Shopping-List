@@ -6,9 +6,9 @@ class Navbar extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <h2 className="navbar-brand">
           Personal Shopping List
-          </a>
+          </h2>
         </div>
       </nav>
     );
