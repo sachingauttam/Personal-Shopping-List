@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Personal-Shopping-List/static/css/main.073c9b0a.css",
+    "main.js": "/Personal-Shopping-List/static/js/main.8e47faff.js",
+    "static/js/787.00457d0f.chunk.js": "/Personal-Shopping-List/static/js/787.00457d0f.chunk.js",
+    "static/media/logo.svg": "/Personal-Shopping-List/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Personal-Shopping-List/index.html",
+    "main.073c9b0a.css.map": "/Personal-Shopping-List/static/css/main.073c9b0a.css.map",
+    "main.8e47faff.js.map": "/Personal-Shopping-List/static/js/main.8e47faff.js.map",
+    "787.00457d0f.chunk.js.map": "/Personal-Shopping-List/static/js/787.00457d0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.8e47faff.js"
+  ]
+}
