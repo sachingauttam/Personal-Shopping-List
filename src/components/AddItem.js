@@ -13,6 +13,10 @@ class AddItem extends React.Component {
       <form
         className="row mb-5"
         onSubmit={(e) => {
+          if (this.state.productName=="" && this.state.productPrice == 0){
+            alert("enter value")
+            return;
+          }
           e.preventDefault();
           this.props.addItem(
             this.state.productName,
