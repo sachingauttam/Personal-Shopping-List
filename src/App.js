@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import ProductList from "./components/ProductList.js";
@@ -46,7 +45,7 @@ function App() {
   const resetQuantity = () => {
     let newProductList = [...productList];
     newProductList.map((products) => {
-      products.quantity = 0;
+      return products.quantity = 0;
     });
     setProductList(newProductList);
     setTotalAmount(0);
