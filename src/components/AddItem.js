@@ -15,7 +15,8 @@ class AddItem extends React.Component {
         onSubmit={(e) => {
           e.preventDefault();
           if (this.state.productName === "" || this.state.productPrice === 0) {
-            alert("enter value");
+            // alert("enter value");
+            console.log("abc");
             // return;
           }
           else {
