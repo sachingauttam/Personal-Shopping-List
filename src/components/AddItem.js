@@ -13,16 +13,19 @@ class AddItem extends React.Component {
       <form
         className="row mb-5"
         onSubmit={(e) => {
-          if (this.state.productName === "" && this.state.productPrice === 0) {
-            alert("enter value");
-            return;
-          }
           e.preventDefault();
+          if (this.state.productName === "" || this.state.productPrice === 0) {
+            alert("enter value");
+            // return;
+          }
+          else {
+          
           this.props.addItem(
             this.state.productName,
             Number(this.state.productPrice),
             this.setState({ productName: "", productPrice: 0 })
           );
+          }
         }}
       >
         <div className="mb-3 col-4">
