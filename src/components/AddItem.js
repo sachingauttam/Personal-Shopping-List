@@ -14,7 +14,7 @@ class AddItem extends React.Component {
         className="row mb-5"
         onSubmit={(e) => {
           e.preventDefault();
-          if (this.state.productName === "" || this.state.productPrice === 0) {
+          if (!this.state.productName || this.state.productPrice <=0) {
             alert("enter value");
             console.log("abc");
             // return;
